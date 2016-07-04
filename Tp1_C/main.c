@@ -32,7 +32,7 @@ int main( int argc, char** argv )
         printf("Voulez vous recommencez la partie??\n");
         printf("1) pour oui et 2) pour non\n");
         scanf("%d", &restart);
-        //pour le test de modif de mon git
+        //pour le test de /*Voila une provocation de merge*/ de mon git
     } while(restart);
 
     return 0;
