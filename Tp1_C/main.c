@@ -22,7 +22,7 @@ int main( int argc, char** argv )
             }else if(random < nombreEntree) {
                 printf("Ce nombre est plus petit \n");
             }else {
-                printf("Bravo vous avez finalement dévinezz!!!!!!!!!!!!\n");
+                printf("Bravo vous avez finalement dÃ©vinezz!!!!!!!!!!!!\n");
 
             }
 
@@ -32,7 +32,7 @@ int main( int argc, char** argv )
         printf("Voulez vous recommencez la partie??\n");
         printf("1) pour oui et 2) pour non\n");
         scanf("%d", &restart);
-
+        //pour le test de modif de mon git
     } while(restart);
 
     return 0;
